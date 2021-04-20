@@ -57,6 +57,7 @@ body {
 h1 {
     color: #C5C6C7;
     font-size: 45px;
+    text-align: center;
 }
 
 #number-form {
@@ -102,7 +103,7 @@ h1 {
     width: 450px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 710px) {
     h1 {
         font-size: 30px;
     }
