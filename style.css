@@ -101,3 +101,17 @@ h1 {
     text-align: center;
     width: 450px;
 }
+
+@media (max-width: 655px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    #query {
+        width: 250px;
+    }
+
+    #ad {
+        width: 350px;
+    }
+}
