@@ -24,6 +24,7 @@ form.addEventListener("submit", async function (e) {
         advert.innerText = `Ad: ${data.ad}`;
     } catch (e) {
         response.innerText = ("Something went wrong:", e);
+        advert.innerText = "";
     }
     form.elements.query.value = "";
 });
